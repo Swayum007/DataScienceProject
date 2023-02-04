@@ -5,7 +5,6 @@ print("For any queries please check the below questions :- ")
 print("  ")
 ch='Yes'
 while ch=='Yes' or ch=='yes': 
-    {
         print("        Please Choice any number from 1 to 10 to select the  questions      "),
         print("----------------------------------------------------------------------------"),
         print("  "),
@@ -73,8 +72,7 @@ while ch=='Yes' or ch=='yes':
             time.sleep(2)   
             ch=input('''Do you want to continue 
                      Yes/No  
-                     ''')
-    }           
-            print("   ")
-            print('   ')
-            print("Thanks to visit our SBI Query Portal")
+                     ''')           
+print("   ")
+print('   ')
+print("Thanks to visit our SBI Query Portal")
