@@ -1,12 +1,15 @@
 import time
+print('  ')
+print('  ')
 print(".........   Welcome to SBI QUERY PORTAL  ........")
 print("  ")
 print("For any queries please check the below questions :- ")
 print("  ")
 ch='Yes'
 while ch=='Yes' or ch=='yes': 
-        print("        Please Choice any number from 1 to 10 to select the  questions      "),
-        print("----------------------------------------------------------------------------"),
+        print("   ")
+        print("Please Choice any number from 1 to 10 to select the  questions"),
+        print("--------------------------------------------------------------"),
         print("  "),
         print("1.What is the process of applying for an SBI Card? ?"),
         print("2.How to open a Bank Account ?"),
@@ -20,12 +23,12 @@ while ch=='Yes' or ch=='yes':
         print("10.What are the benefits to open an account in your bank ?"),
         print("-----------------------------------------------------------------"),
         print("  "),
-        a = input()
+        a = int(input("Enter your choice : "))
         if a==1 :
             print("The fastest way to apply for an SBI Card is through our website www.sbicard.com"),
             print("Alternatively, you can also call SBI Card helpline at 39 02 02 02 (please prefix the STD Code of your city) or visit the nearest SBI branch to apply for an SBI Card."),
         elif (a==2):
-            print('''A valid, government-issued photo ID, such as a driver’s license or a passport.
+            print('''A valid, government-issued photo ID, such as a drivers license or a passport.
                 Nondrivers can get a state ID card at the Department of Motor Vehicles office.''');
             print("Other basic information, such as your birthdate, Social Security number or Taxpayer Identification Number, or phone number."),
             print('''Identification details for other applicants, if you are opening a joint account: 
@@ -75,4 +78,4 @@ while ch=='Yes' or ch=='yes':
                      ''')           
 print("   ")
 print('   ')
-print("Thanks to visit our SBI Query Portal")
+print("Thanks for visiting our SBI Query Portal")
